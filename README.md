@@ -11,8 +11,8 @@ npm i js-show-hide
 ## Initiate
 
 ```js
-import ShowHide from "js-show-hide";
-new ShowHide();
+import { JsShowHide } from "js-show-hide";
+new JsShowHide();
 ```
 
 Optionally pass through `{ hiders: 'data-foo', showers: 'data-bar' }` if you want to use different data attributes

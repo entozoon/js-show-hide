@@ -1,4 +1,4 @@
-export default class {
+export class JsShowHide {
   constructor(props: {}) {
     const config = (<any>Object).assign(props || {}, {
       hiders: "data-js-hide",

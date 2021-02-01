@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var default_1 = (function () {
-    function default_1(props) {
+exports.JsShowHide = void 0;
+var JsShowHide = (function () {
+    function JsShowHide(props) {
         var config = Object.assign(props || {}, {
             hiders: "data-js-hide",
             showers: "data-js-show",
@@ -23,6 +24,6 @@ var default_1 = (function () {
             });
         }
     }
-    return default_1;
+    return JsShowHide;
 }());
-exports.default = default_1;
+exports.JsShowHide = JsShowHide;
