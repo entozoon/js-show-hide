@@ -1,0 +1,22 @@
+{
+  "name": "js-show-hide",
+  "version": "1.0.0",
+  "description": "Simple as you'd imagine",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entozoon/js-show-hide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entozoon/js-show-hide/issues"
+  },
+  "homepage": "https://github.com/entozoon/js-show-hide#readme",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
