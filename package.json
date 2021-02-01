@@ -1,6 +1,6 @@
 {
   "name": "js-show-hide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple as you'd imagine",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/entozoon/js-show-hide/issues"
   },
   "homepage": "https://github.com/entozoon/js-show-hide#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.1.3"
   }
 }
