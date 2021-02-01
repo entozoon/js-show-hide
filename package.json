@@ -2,7 +2,7 @@
   "name": "js-show-hide",
   "version": "1.0.2",
   "description": "Simple as you'd imagine",
-  "main": "dist/index.js",
+  "main": "dist/index",
   "scripts": {
     "start": "tsc -w"
   },
