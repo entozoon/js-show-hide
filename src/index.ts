@@ -17,7 +17,7 @@ export class JsShowHide {
     if (showers) {
       showers.forEach((d: HTMLElement) => {
         const targets = document.querySelectorAll(
-          d.getAttribute(config.hiders)
+          d.getAttribute(config.showers)
         );
         if (targets) targets.forEach((t) => t.removeAttribute("hidden"));
       });

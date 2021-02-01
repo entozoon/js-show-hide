@@ -19,7 +19,7 @@ var JsShowHide = (function () {
         var showers = document.querySelectorAll("[" + config.showers + "]");
         if (showers) {
             showers.forEach(function (d) {
-                var targets = document.querySelectorAll(d.getAttribute(config.hiders));
+                var targets = document.querySelectorAll(d.getAttribute(config.showers));
                 if (targets)
                     targets.forEach(function (t) { return t.removeAttribute("hidden"); });
             });
