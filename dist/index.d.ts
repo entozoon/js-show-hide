@@ -1,3 +1,3 @@
 export declare class JsShowHide {
-    constructor(props: {});
+    constructor(props?: {});
 }

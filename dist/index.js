@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.JsShowHide = void 0;
 var JsShowHide = (function () {
     function JsShowHide(props) {
+        if (props === void 0) { props = {}; }
         var config = Object.assign(props || {}, {
             hiders: "data-js-hide",
             showers: "data-js-show",

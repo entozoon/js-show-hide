@@ -1,5 +1,5 @@
 export class JsShowHide {
-  constructor(props: {}) {
+  constructor(props = {}) {
     const config = (<any>Object).assign(props || {}, {
       hiders: "data-js-hide",
       showers: "data-js-show",

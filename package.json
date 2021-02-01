@@ -1,6 +1,6 @@
 {
   "name": "js-show-hide",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple as you'd imagine",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
